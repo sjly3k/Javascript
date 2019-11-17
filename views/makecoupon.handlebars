@@ -1,0 +1,9 @@
+<h1>Generate Coupon By Email</h1>
+<br>
+{{#if error}} <span>{{error}}</span>{{/if}}
+<form class="form-inline" method="POST" action="/coupon/generate">
+  <div class="form-group">
+    <input type="email" name="email" class="form-control" placeholder="Generate Coupon by Email">
+  </div>
+  <input type="submit" class="btn btn-primary" value="Generate">
+</form>

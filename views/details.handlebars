@@ -1,0 +1,13 @@
+
+{{#if error}} <span>{{error}}</span>{{/if}}
+<h1>[ User name : {{coupon.email}} ]</h1>
+<ul class="list-group">
+    <li class="list-group-item"><strong>Coupon Number : </strong>{{coupon.code}}</li>
+    <li class="list-group-item"><strong>Create Date : </strong>{{coupon.creation_date}}</li>
+    <li class="list-group-item"><strong>Expired Date : </strong>{{coupon.expired_date}}</li>
+    <li class="list-group-item"><strong>Used : </strong>{{coupon.used}}</li>
+</ul>
+<a class="btn btn-default pull-left" href="/">Back</a>
+<a class="btn btn-default pull-left" href="/shop">Go to Shop</a>
+
+
